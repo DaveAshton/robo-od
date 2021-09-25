@@ -1,4 +1,4 @@
-import { GridColDef, DataGrid, GridCellParams } from "@material-ui/data-grid"
+import { GridColDef, GridCellParams } from "@material-ui/data-grid"
 import { Button } from "@material-ui/core";
 
 import React from "react"

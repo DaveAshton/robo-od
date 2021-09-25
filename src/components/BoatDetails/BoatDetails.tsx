@@ -26,17 +26,18 @@ export const BoatDetails = memo(
         {/* <img className={styles.image} src={imageUrl} alt="" /> */}
         <span>{name}</span>
         <span className={styles.birthday}>{pyNumber}</span>
-        {<DoggoButtons onAddClick={onAddClick} />}
+        {isHovered && <Buttons onAddClick={onAddClick} />}
       </div>
     );
   }
 );
 
-const DoggoButtons = (props: { onAddClick: () => void }) => {
+const Buttons = (props: { onAddClick: () => void }) => {
   return (
     <div className={styles.buttons}>
-      <Button onClick={props.onAddClick} className={styles.button}>Add</Button>
-
+      <Button onClick={props.onAddClick} className={styles.button}>
+        Add
+      </Button>
     </div>
   );
 };
