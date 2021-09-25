@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Button, IconButton } from "../Button";
+import { IconButton } from "../Button";
 import DonutSmallIcon from "@material-ui/icons/DonutSmall";
 
 import styles from "./NavBar.module.css";

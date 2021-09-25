@@ -97,6 +97,8 @@ export function FilterView<TOption>({
     userInput: "",
   });
 
+  // todo fix below - use custom hook?
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const search = useCallback(
     throttle(
       (input: string) => {

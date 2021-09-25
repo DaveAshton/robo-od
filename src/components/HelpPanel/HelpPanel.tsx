@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { NavBar } from "../NavBar";
 
 import styles from "./HelpPanel.module.css";
 
