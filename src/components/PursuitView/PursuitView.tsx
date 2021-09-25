@@ -68,6 +68,9 @@ export const PursuitView = ({
   }, []);
 
   useEffect(() => {
+    if (!state.boats.length) {
+      return;
+    }
     calculateResults(state.boats, 90 * 60, new Date(2020, 6, 12, 14)).then(
       (results) => {
         dispatch({ type: "updateResults", results });

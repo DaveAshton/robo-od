@@ -5,7 +5,7 @@ import React from "react"
 import { PursuitResult } from "../../model";
 
 export const createColumns = (onDelete: (row: PursuitResult) => void): GridColDef[] => {
-    console.warn("creating race list cols", onDelete);
+   // console.warn("creating race list cols", onDelete);
     return [
       {
         field: "name",
