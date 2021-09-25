@@ -1,0 +1,24 @@
+@import "../../palette.css";
+@import "../../variables.css";
+
+.myButton {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: calc(15px + 2vh);
+    border-radius: var(--border-radius-med);
+    color: var(--light-input-color);
+    font-size: var(--font-size-small);
+    background-color: var(--dark-bg-color);
+    
+}
+
+.myButton:hover {
+    background-color: var(--vdark-bg-color);
+    color: green;
+}

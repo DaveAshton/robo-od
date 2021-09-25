@@ -1,0 +1,38 @@
+@import "../../palette.css";
+@import "../../variables.css";
+
+.doggoItem {
+    display: flex;
+    margin-left: 3%;
+    color: var(--light-input-color);
+    align-items: center;
+    /* margin-bottom: 2%; */
+    margin-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.doggoItem:hover {
+    background-color: var(--vdark-bg-color);
+}
+
+.birthday {
+    margin-left: 2%;
+    color: var(--faded-color);
+    font-size: var(--font-size-small);
+}
+
+.image {
+    height: var(--small-icon-size);
+    width: var(--small-icon-size);
+    margin-right: 2%;
+}
+
+.button {
+    height: 20px;
+}
+.buttons {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}

@@ -1,0 +1,18 @@
+@import "../../palette.css";
+@import "../../variables.css";
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 18vh;
+    background-color: var(--dark-bg-color);
+    opacity: 0.8;
+}
+
+.button {
+    margin-right: 2vw;
+    margin-top: 1vw;
+    fill: var(--faded-color);
+}

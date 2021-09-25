@@ -1,0 +1,7 @@
+:root {
+    --font-size-small: calc(4px + 0.5vh + 0.5vw);
+    --font-size-med: calc(6px + 0.5vh + 0.5vw);
+    --border-radius-med: 5px;
+    --small-icon-size: calc(6px + 1vh + 1vw);
+    --med-icon-size: calc(8px + 1.3vh + 1.3vw);
+  }

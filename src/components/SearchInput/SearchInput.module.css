@@ -1,0 +1,42 @@
+@import "../../palette.css";
+@import "../../variables.css";
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1%;
+    height: calc(20px + 2vh);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.searchInput {
+    flex: 1;
+    background-color: var(--vdark-bg-color);
+    color: var(--light-input-color);
+    border: 0;
+    border-radius: var(--border-radius-med);
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+    outline: none;
+    font-size: var(--font-size-med);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% {  transform: rotate(360deg); }
+}
+
+.logo {
+    width: var(--med-icon-size);
+    height: var(--med-icon-size);
+}
+
+.loading {
+    animation: spin 0.5s linear infinite alternate-reverse;
+}

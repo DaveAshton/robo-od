@@ -1,0 +1,17 @@
+@import "../../palette.css";
+@import "../../variables.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  /* min-width: 50vw; */
+    font-size: var(--font-size-med);
+}
+
+.gridContainer {
+  display: flex;
+  /* height: 50vh; */
+  width: 50vw;
+  color: aliceblue;
+}

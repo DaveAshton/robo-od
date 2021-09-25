@@ -1,0 +1,16 @@
+@import "../../palette.css";
+@import "../../variables.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultList {
+    margin-top: 2%;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    overflow-y: scroll;
+    max-height: 25vh;
+}

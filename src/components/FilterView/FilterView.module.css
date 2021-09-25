@@ -1,0 +1,56 @@
+@import "../../palette.css";
+@import "../../variables.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50vw;
+    font-size: var(--font-size-med);
+}
+
+.resultTitle {
+    font-size: var(--font-size-small);
+    align-self: flex-start;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5%;
+    width: 100%;
+    background-color: var(--dark-bg-color);
+    font-size: var(--font-size-med);
+    border-radius: var(--border-radius-med);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.showDetails {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    max-height: 1500px; /* helps with transition */
+    transition: max-height 0.75s ease-in, opacity 0.75s ease-in;
+}
+
+.hideDetails {
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 0.75s ease-out, opacity 0.75s ease-out;
+    overflow: hidden;
+}
+
+.fadeIn {
+    opacity: 1;
+    max-height: 1500px;
+    transition: max-height 0.75s ease-in, opacity 0.75s ease-in;
+}
+
+.fadeOut {
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 0.75s ease-out, opacity 0.75s ease-out;
+    overflow: hidden;
+}
